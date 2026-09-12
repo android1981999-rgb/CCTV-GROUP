@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://android1981999-rgb.github.io/CCTV-GROUP-/sitemap.xml
+Sitemap: https://YOUR-DOMAIN.example/sitemap.xml
