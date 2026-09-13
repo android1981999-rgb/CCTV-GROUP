@@ -57,31 +57,45 @@ footer{border-top:1px solid var(--line);padding:30px 0;color:var(--muted);font-s
 }
 </script>
 
+<style>
+/* Conversion-focused CTA */
+.conversion-strip{padding:34px 0;background:linear-gradient(135deg,#131f2c,#0d151e);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.conversion-inner{display:grid;grid-template-columns:1.2fr .8fr;gap:24px;align-items:center}.conversion-strip h2{margin:0 0 8px;font-size:32px}.conversion-strip p{margin:0;color:var(--muted)}
+.cta-row{display:flex;gap:10px;flex-wrap:wrap;justify-content:flex-end}.btn.whatsapp{background:#25d366}.btn.call{background:#fff;color:#0b1118}.btn.whatsapp:hover{background:#35e276}.btn.call:hover{background:#e8edf1}
+.choice-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:22px}.choice{display:block;padding:17px;border:1px solid var(--line);border-radius:14px;background:#0f1720}.choice strong{display:block;margin-bottom:4px}.choice span{color:var(--muted);font-size:13px}
+.trust{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:25px}.trust-item{padding:18px;border:1px solid var(--line);border-radius:14px;background:#0f1720}.trust-item b{display:block;margin-bottom:4px}.trust-item span{color:var(--muted);font-size:13px}
+@media(max-width:850px){.conversion-inner{grid-template-columns:1fr}.cta-row{justify-content:flex-start}.choice-grid,.trust{grid-template-columns:1fr}}
+.mobile-cta{display:none}
+@media(max-width:520px){body{padding-bottom:68px}.mobile-cta{display:grid;grid-template-columns:1fr 1fr;position:fixed;left:0;right:0;bottom:0;z-index:50;background:rgba(11,17,24,.97);padding:8px;gap:8px;border-top:1px solid var(--line)}.mobile-cta a{padding:13px 8px;border-radius:10px;text-align:center;font-weight:900}.mobile-cta .m-wa{background:#25d366}.mobile-cta .m-call{background:var(--accent)}}
+</style>
 </head>
 <body>
 <header><div class="container nav">
 <a class="logo" href="#">CCTV<span> GROUP</span></a>
 <nav><a href="#services">Услуги</a><a href="#work">Как работаем</a><a href="portfolio.html">Портфолио</a><a href="#contacts">Контакты</a></nav>
-<a class="btn" href="https://wa.me/77019891208?text=Здравствуйте!%20Хочу%20получить%20расчёт%20по%20системе%20безопасности." target="_blank" rel="noopener">Получить расчёт</a>
+<a class="btn" href="https://wa.me/77019891208?text=Здравствуйте!%20Хочу%20получить%20расчёт%20по%20системе%20безопасности." target="_blank" rel="noopener">💬 Получить расчёт</a>
 </div></header>
 
 <main>
 <section class="hero"><div class="container hero-grid">
 <div>
 <div class="tag">Караганда • Казахстан</div>
-<h1>Системы безопасности под ключ</h1>
-<p>Монтаж, пусконаладка и обслуживание пожарной сигнализации, видеонаблюдения, СКУД и домофонии.</p>
-<div class="actions"><a class="btn" href="https://wa.me/77019891208?text=Здравствуйте!%20Хочу%20получить%20расчёт%20по%20системе%20безопасности." target="_blank" rel="noopener">Заказать расчёт</a><a class="btn ghost" href="#services">Наши услуги</a></div>
+<h1>Нужна система безопасности в Караганде?</h1>
+<p>Получите предварительный расчёт по видеонаблюдению, пожарной сигнализации, СКУД или домофонии. Напишите в WhatsApp — ответим и подскажем, что подойдёт вашему объекту.</p>
+<div class="actions"><a class="btn whatsapp" href="https://wa.me/77019891208?text=Здравствуйте!%20Хочу%20получить%20предварительный%20расчёт.%20Караганда." target="_blank" rel="noopener">💬 Получить расчёт в WhatsApp</a><a class="btn call" href="tel:+77009861481">☎ Позвонить</a></div>
+<div class="choice-grid"><a class="choice" href="https://wa.me/77019891208?text=Здравствуйте!%20Нужен%20расчёт%20видеонаблюдения%20в%20Караганде." target="_blank" rel="noopener"><strong>📹 Видеонаблюдение</strong><span>Дом, магазин, офис, склад</span></a><a class="choice" href="https://wa.me/77019891208?text=Здравствуйте!%20Нужен%20расчёт%20пожарной%20сигнализации%20в%20Караганде." target="_blank" rel="noopener"><strong>🔥 Пожарная сигнализация</strong><span>Монтаж, ПНР, обслуживание</span></a><a class="choice" href="https://wa.me/77019891208?text=Здравствуйте!%20Нужен%20расчёт%20СКУД%20или%20домофонии%20в%20Караганде." target="_blank" rel="noopener"><strong>🚪 СКУД / домофония</strong><span>Контроль доступа и IP-системы</span></a></div>
 </div>
 <div class="panel">
-<h3>Что вы получаете</h3>
-<div class="check"><b>✓</b><span>Подбор оборудования под объект и бюджет</span></div>
-<div class="check"><b>✓</b><span>Монтаж и аккуратная прокладка кабеля</span></div>
-<div class="check"><b>✓</b><span>Программирование и пусконаладка</span></div>
-<div class="check"><b>✓</b><span>Проверка и сдача системы заказчику</span></div>
-<a class="btn" style="width:100%;margin-top:12px" href="https://wa.me/77019891208?text=Здравствуйте!%20Хочу%20рассчитать%20стоимость%20системы%20безопасности." target="_blank" rel="noopener">Написать в WhatsApp</a>
+<h3>Как получить расчёт</h3>
+<div class="check"><b>1</b><span>Напишите, что нужно установить или настроить</span></div>
+<div class="check"><b>2</b><span>Отправьте фото, проект или адрес объекта — если есть</span></div>
+<div class="check"><b>3</b><span>Получите предварительный расчёт и рекомендации</span></div>
+<div class="trust"><div class="trust-item"><b>📍 Караганда</b><span>Работаем по городу и области</span></div><div class="trust-item"><b>📱 WhatsApp</b><span>Быстрый способ связаться</span></div><div class="trust-item"><b>🔧 ПНР</b><span>Настройка и диагностика</span></div></div>
+<a class="btn whatsapp" style="width:100%;margin-top:18px" href="https://wa.me/77019891208?text=Здравствуйте!%20Хочу%20получить%20расчёт%20по%20системе%20безопасности.%20Мой%20объект%20в%20Караганде." target="_blank" rel="noopener">💬 Написать и получить расчёт</a>
 </div>
 </div></section>
+
+<section class="conversion-strip"><div class="container conversion-inner"><div><h2>Не знаете, что выбрать?</h2><p>Опишите объект в WhatsApp — подскажем решение и состав работ без сложной анкеты.</p></div><div class="cta-row"><a class="btn whatsapp" href="https://wa.me/77019891208?text=Здравствуйте!%20Не%20знаю,%20какая%20система%20нужна.%20Помогите%20подобрать%20решение%20для%20объекта%20в%20Караганде." target="_blank" rel="noopener">💬 Помогите подобрать</a><a class="btn call" href="tel:+77009861481">☎ Позвонить</a></div></div></section>
 
 <section id="services"><div class="container">
 <div class="section-head"><div><div class="tag">Наши услуги</div><h2>Безопасность объекта</h2></div><p>Работаем с частными, коммерческими и промышленными объектами.</p></div>
@@ -147,11 +161,11 @@ footer{border-top:1px solid var(--line);padding:30px 0;color:var(--muted);font-s
 </div></section>
 
 <section id="contacts"><div class="container">
-<div class="section-head"><div><div class="tag">Контакты</div><h2>Обсудим ваш объект?</h2></div><p>Оставьте заявку — подготовим предварительный расчёт.</p></div>
+<div class="section-head"><div><div class="tag">Заявка</div><h2>Получите предварительный расчёт</h2></div><p>Заполните 3 поля или сразу напишите в WhatsApp. Мы свяжемся с вами по указанному номеру.</p></div>
 <div class="contact">
 <div class="contact-box"><h3>CCTV GROUP</h3><p>Монтаж, пусконаладка и обслуживание систем безопасности в Караганде и области.</p>
 <p><b>Телефон:</b> <a href="tel:+77009861481">+7 (700) 986-14-81</a></p><p><b>WhatsApp:</b> <a style="color:var(--accent);font-weight:800" href="https://wa.me/77019891208" target="_blank" rel="noopener">+7 (701) 989-12-08</a></p><p><b>Режим:</b> ежедневно</p></div>
-<div class="contact-box"><form onsubmit="sendForm(event)"><input id="name" required placeholder="Ваше имя"><input id="phone" required placeholder="Телефон / WhatsApp"><textarea id="msg" placeholder="Что нужно установить или настроить?"></textarea><button class="btn" type="submit">Отправить заявку</button><small id="result" style="color:var(--muted)"></small></form></div>
+<div class="contact-box"><form onsubmit="sendForm(event)"><input id="name" required placeholder="Ваше имя"><input id="phone" required placeholder="Телефон / WhatsApp"><textarea id="msg" placeholder="Что нужно установить или настроить?"></textarea><button class="btn whatsapp" type="submit">💬 Отправить заявку в WhatsApp</button><small id="result" style="color:var(--muted)"></small></form></div>
 </div>
 </div></section>
 </main>
@@ -174,7 +188,7 @@ function sendForm(e){
  document.getElementById('result').textContent='Открываю WhatsApp — осталось нажать «Отправить».';
 }
 </script>
-<a class="floating-wa" href="https://wa.me/77019891208?text=Здравствуйте!%20Хочу%20получить%20расчёт%20по%20системе%20безопасности." target="_blank" rel="noopener">Получить расчёт</a>
+<a class="floating-wa" href="https://wa.me/77019891208?text=Здравствуйте!%20Хочу%20получить%20расчёт%20по%20системе%20безопасности." target="_blank" rel="noopener">💬 Получить расчёт</a>
 <style>
 .floating-wa{position:fixed;right:22px;bottom:22px;z-index:20;background:#25d366;color:#fff;padding:13px 18px;border-radius:999px;font-weight:800;box-shadow:0 8px 25px rgba(0,0,0,.3)}
 .floating-wa:hover{transform:translateY(-2px)}
@@ -212,5 +226,6 @@ document.querySelectorAll('.gallery-item').forEach(el=>{
   });
 });
 </script>
+<div class="mobile-cta"><a class="m-wa" href="https://wa.me/77019891208?text=Здравствуйте!%20Хочу%20получить%20расчёт%20по%20системе%20безопасности%20в%20Караганде." target="_blank" rel="noopener">💬 WhatsApp</a><a class="m-call" href="tel:+77009861481">☎ Позвонить</a></div>
 </body>
 </html>
